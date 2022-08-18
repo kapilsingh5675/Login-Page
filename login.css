@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    background-image: url(./ran-berkovich-rLXU8ajlQ9Q-unsplash.jpg);
+    background-size: cover;
+    background-position: 0%;
+}
+
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(104 88 58 / 56%);
+    text-align: center;
+}
+.box div{
+    color: white;
+    font-weight: 700;
+    font-size: 240%;
+}
+.box input[type="text"], .box input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0376fd;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    }
+.box input[type="text"]:focus, .box input[type="password"]:focus
+{
+    width: 270px;
+    border-color: #ad9d65ec;
+}
+.box input[type="submit"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #6dabb6ec;
+    padding: 14px 35px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover
+{
+    background: #6dabb6ec;
+}
+.Id{
+    color:white;
+}
